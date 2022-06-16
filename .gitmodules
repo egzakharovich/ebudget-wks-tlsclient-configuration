@@ -1,0 +1,4 @@
+[submodule "certification-path"]
+	path = certification-path
+	url = git@gist.github.com:95b9361bdebe937576f04b9ad6791664.git
+	branch = master

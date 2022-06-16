@@ -1,0 +1,208 @@
+{
+    "GlobalConfig": {
+        "transparentMode": true,
+        "tunnelingApplicationNotification": true
+    },
+    "PublicConfig": {
+        "loggingConfig": {
+            "fileLogMaxSize": 3145728,
+            "fileLoggingDirectory": "C:\\Users\\Public\\ContinentTLSClient\\",
+            "fileLoggingEnabled": true,
+            "logLevel": 2,
+            "sessionLogsEnabled": true
+        },
+        "serialNumber": "test-50000",
+        "tlsProtocolCode": "1_0_OR_1_2"
+    },
+    "RegistryConfig": {
+        "runAtStartup": true,
+        "uriRegistered": false
+    },
+    "UserConfig": {
+        "cdps": [
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://rostelecom.ru/cdp/guc.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://rostelecom.ru/cdp/guc2022.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://rostelecom.ru/cdp/guc_gost12.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://company.rt.ru/cdp/guc.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://company.rt.ru/cdp/guc2022.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://company.rt.ru/cdp/guc_gost12.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://reestr-pki.ru/cdp/guc.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://reestr-pki.ru/cdp/guc2022.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://reestr-pki.ru/cdp/guc_gost12.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://crl.roskazna.ru/crl/ucfk.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://crl.roskazna.ru/crl/ucfk_gost12.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://crl.roskazna.ru/crl/ucfk_2020.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://crl.roskazna.ru/crl/ucfk_2021.crl"
+            },
+            {
+                "crlState": "not_downloaded",
+                "issuer": "",
+                "url": "http://crl.roskazna.ru/crl/ucfk_2022.crl"
+            }
+        ],
+        "certWarnExpirationDays": 16,
+        "checkServerCertFingerprint": true,
+        "crlAutoUpdate": true,
+        "crlNextUpdateExpirationDays": 1,
+        "crlUpdatePeriod": 6,
+        "defaultCertificateSerial": "",
+        "defaultCertificateSubject": "",
+        "denyRegistryNotification": false,
+        "externalProxyConfig": {
+            "authMethod": "Auto",
+            "exceptions": "",
+            "host": "",
+            "port": 0,
+            "useProxy": false
+        },
+        "performMobyDickTest": true,
+        "proxyPort": 15197,
+        "resources": [
+            {
+                "description": "Портал Федерального Казначейства.\nТочка доступа через ПОИБ СОБИ.",
+                "host": "eb.cert.roskazna.ru",
+                "hostForHandshake": "eb.cert.roskazna.ru",
+                "id": 1,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "eb.cert.roskazna.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            },
+            {
+                "description": "Портал ПОИБ СОБИ.\nВход с использованием квалифицированного сертификата пользователя",
+                "host": "sobi.cert.roskazna.ru",
+                "hostForHandshake": "sobi.cert.roskazna.ru",
+                "id": 2,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "sobi.cert.roskazna.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            },
+            {
+                "description": "Портал ПОИБ СОБИ.\nВход с использованием ЕСИА (Госуслуги)",
+                "host": "sobi.esia.roskazna.ru",
+                "hostForHandshake": "sobi.esia.roskazna.ru",
+                "id": 3,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "sobi.esia.roskazna.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            },
+            {
+                "description": "Портал ПОИБ СОБИ.\nВход с использованием логина и пароля",
+                "host": "sobi.login.roskazna.ru",
+                "hostForHandshake": "sobi.login.roskazna.ru",
+                "id": 4,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "sobi.login.roskazna.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            },
+            {
+                "description": "Портал заявителя УЦ ФК.\nДля подачи запросов на новые сертификаты.",
+                "host": "fzs.roskazna.ru",
+                "hostForHandshake": "fzs.roskazna.ru",
+                "id": 5,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "fzs.roskazna.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            },
+            {
+                "description": "Портал заявителя УЦ ФК.\nЛичный кабинет.\nПлановая смена сертификата, управление сертификатами сотрудников организации, отзыв сертификата...",
+                "host": "lk-fzs.roskazna.ru",
+                "hostForHandshake": "lk-fzs.roskazna.ru",
+                "id": 6,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "lk-fzs.roskazna.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            },
+            {
+                "description": "Технический ресурс, необходимый для подписания документов на Портале заявителя УЦ ФК.",
+                "host": "signservice.roskazna.gov.ru",
+                "hostForHandshake": "signservice.roskazna.gov.ru",
+                "id": 7,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "signservice.roskazna.gov.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            },
+            {
+                "description": "Портал Федерального Казначейства.\nТочка доступа через ЭБ ПОИБ.\nДолжна стать неактуальной после 06.2022. Потому добавлен в конец.",
+                "host": "lk.budget.gov.ru",
+                "hostForHandshake": "lk.budget.gov.ru",
+                "id": 8,
+                "isStartPage": false,
+                "localPort": 443,
+                "name": "lk.budget.gov.ru",
+                "remotePort": 443,
+                "tlsServerId": 0
+            }
+        ],
+        "uiConfig": {
+            "runMinimized": true,
+            "uiTheme": "light-theme"
+        },
+        "useAutoProxyIEConfig": false,
+        "useCrl": true
+    }
+}

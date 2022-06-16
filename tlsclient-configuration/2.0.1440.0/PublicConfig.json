@@ -1,0 +1,11 @@
+{
+    "loggingConfig": {
+        "fileLogMaxSize": 3145728,
+        "fileLoggingDirectory": "C:\\Users\\Public\\ContinentTLSClient\\",
+        "fileLoggingEnabled": true,
+        "logLevel": 4,
+        "sessionLogsEnabled": false
+    },
+    "serialNumber": "test-50000",
+    "tlsProtocolCode": "1_0_OR_1_2"
+}
